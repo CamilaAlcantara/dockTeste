@@ -11,6 +11,8 @@
    <td>Banco de Dados</td>
    <td>Server Port</td>
    <td>Nome da Base de Dados</td>
+   <td>User da Base de Dados</td>
+   <td>Senha da Base de Dados</td>
   </tr>
    <tr>
    <td>Maven Project</td>
@@ -19,6 +21,8 @@
    <td>IntelliJ IDEA</td>
    <td>Postgres</td>
    <td>2609</td>
+   <td>dock</td>
+   <td>postgres</td>
    <td>dock</td>
   </tr>
 </table>
