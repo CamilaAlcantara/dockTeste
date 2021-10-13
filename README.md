@@ -153,6 +153,30 @@
                 "phone": "997843278",
                 "address": "Rua numero 20",
                 "status": "DISAPPROVED"
+            }    
+       
+  6) Buscar por Status:
+
+     <table>
+         <tr>
+          <td>Método</td>
+          <td>Url</td>
+         </tr>
+         <tr>
+          <td>DELETE</td>
+          <td>http://localhost:8888/personProposal/buscarPorStatus/</td>
+         </tr>
+       </table>
+         
+            EXEMPLO :
+            http://localhost:8888/personProposal/buscarPorStatus/1
+            
+       <h4>ENUM</h4>
+            
+            {
+                APPROVED = 0
+                DISAPPOVED = 1
+                REVIEW = 2
             }     
 
   
