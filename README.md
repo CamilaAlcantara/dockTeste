@@ -38,13 +38,122 @@
  ## Urls utilizadas para testar a API: 
  
   1) LISTAR:
+   <table>
+       <tr>
+        <td>Método</td>
+        <td>Url</td>
+       </tr>
+        <tr>
+        <td>GET</td>
+        <td>http://localhost:8888/personProposal/listar</td>
+       </tr>
+     </table>
         
   2) INCLUIR:
+
+  <table>
+       <tr>
+        <td>Método</td>
+        <td>Url</td>
+       </tr>
+        <tr>
+        <td>POST</td>
+        <td>http://localhost:8888/personProposal/incluir</td>
+       </tr>
+     </table>
+     <h4>JSON utilizado para incluir</h4>
+
+
+         
+             {
+              "address": "Rua numero 20",
+              "document": "12345678980",
+              "name": "Carlos",
+              "lastname": "Gonçalves",
+              "phone": "997843278"
+             }
+         
   
   3) ALTERAR:
+  
+     <table>
+        <tr>
+         <td>Método</td>
+         <td>Url</td>
+        </tr>
+         <tr>
+         <td>POST</td>
+         <td>http://localhost:8888/personProposal/alterar</td>
+        </tr>
+      </table>
+
+      <h4>JSON utilizado para alterar perfil que aprova crédito </h4>
+
+           
+              {
+                "id": 1,
+               "name": "Carlos",
+               "lastname": "Gonçalves",
+               "document": "12345678910",
+               "dateRequest": "2021-10-11",
+               "updateStatusRequest": "2021-10-11",
+               "phone": "997843278",
+               "address": "Rua numero 20",
+               "status": "DISAPPROVED"
+               }
+           
+
+
+   4) ALTERAR:
+
+   <table>
+      <tr>
+       <td>Método</td>
+       <td>Url</td>
+      </tr>
+       <tr>
+       <td>POST</td>
+       <td>http://localhost:8888/personProposal/alterarSolicitacao</td>
+      </tr>
+    </table>
+    <h4>JSON utilizado para alterar perfil que solicita crédito </h4>
       
-  4) DELETAR:
+          {
+            "id": 1,
+            "address": "Rua numero 20",
+            "document": "12345678980",
+            "name": "Carlos",
+            "lastname": "Gonçalves",
+            "phone": "997843278"
+           }
        
+      
+  5) DELETAR:
+
+     <table>
+         <tr>
+          <td>Método</td>
+          <td>Url</td>
+         </tr>
+         <tr>
+          <td>DELETE</td>
+          <td>http://localhost:8888/personProposal/delete</td>
+         </tr>
+       </table>
+         
+        <h4>JSON utilizado para deletar</h4>
+
+            {
+                "id": 1,
+                "name": "Carlos",
+                "lastname": "Gonçalves",
+                "document": "12345678910",
+                "dateRequest": "2021-10-11",
+                "updateStatusRequest": "2021-10-11",
+                "phone": "997843278",
+                "address": "Rua numero 20",
+                "status": "DISAPPROVED"
+            }     
 
   
    ## Fontes para contato: 
