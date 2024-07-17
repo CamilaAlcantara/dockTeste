@@ -1,4 +1,4 @@
-<h1> Desafio Análise de Credito - Camila Alcantara </h1>
+<h1> Análise de Credito - Camila Alcantara </h1>
 
  ## Tecnologias Usadas: 
   
